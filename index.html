@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MyPTV — Interactive Demo</title>
+  <style>
+    :root{color-scheme:dark;--bg:#071127;--panel:#0e1b37;--line:#26385f;--text:#edf4ff;--muted:#9cafcf;--blue:#1662ff;--violet:#704fd6;--green:#31d69b}
+    *{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;background:radial-gradient(circle at 80% 0,#172a60 0,transparent 35%),var(--bg);color:var(--text)}
+    .shell{width:min(1080px,92vw);margin:auto;padding:34px 0 60px}.top{display:flex;align-items:center;gap:16px}.logo{width:82px;height:82px;object-fit:contain}.eyebrow{color:#7ca8ff;font-size:.78rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase}h1{margin:2px 0;font-size:clamp(2rem,6vw,4rem);line-height:1}p{color:var(--muted)}
+    .notice{margin:24px 0;padding:13px 16px;border:1px solid #32528e;border-radius:12px;background:#10234a;color:#cfe0ff}.grid{display:grid;grid-template-columns:1.25fr .75fr;gap:20px}.card{background:rgba(14,27,55,.92);border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 20px 60px #02081466}.card h2{margin:0 0 7px;font-size:1.1rem}.status{display:flex;justify-content:space-between;align-items:center;margin:24px 0 14px}.pill{padding:6px 10px;border-radius:99px;background:#182a4d;color:#b8cae8;font-size:.78rem;font-weight:750}.pill.run{background:#103f39;color:#7cf2c6}.bar{height:9px;background:#1a2947;border-radius:99px;overflow:hidden}.bar span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--blue),var(--violet));transition:width .45s ease}.stages{display:grid;gap:9px;margin:18px 0}.stage{display:flex;gap:10px;align-items:center;color:#7184a6}.stage.done{color:#cfddf5}.dot{width:9px;height:9px;border-radius:50%;background:#304361}.done .dot{background:var(--green);box-shadow:0 0 12px #31d69b88}button{border:0;border-radius:11px;padding:12px 16px;background:var(--blue);color:white;font-weight:800;cursor:pointer}button.secondary{background:#1a2b50;color:#dce8ff;margin-left:8px}button:disabled{opacity:.55;cursor:wait}.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:16px}.stat{padding:14px;border:1px solid var(--line);border-radius:12px}.stat b{display:block;font-size:1.35rem}.stat small{color:var(--muted)}
+    table{width:100%;border-collapse:collapse;margin-top:12px;font-size:.86rem}th,td{text-align:left;padding:9px;border-bottom:1px solid var(--line)}th{color:#7ca8ff}.hidden{display:none}.architecture{margin-top:20px}.flow{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.node{padding:9px 12px;background:#13264d;border:1px solid #2a477c;border-radius:9px}.arrow{color:#6682b1}.foot{margin-top:22px;font-size:.84rem;color:#7d91b5}
+    @media(max-width:760px){.grid{grid-template-columns:1fr}.top{align-items:flex-start}.logo{width:64px;height:64px}.stats{grid-template-columns:1fr 1fr}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="top"><img class="logo" src="myptv-logo.png" alt="MyPTV logo"><div><div class="eyebrow">Interactive portfolio demo</div><h1>MyPTV</h1><p>Automated IPTV guide and library updater</p></div></header>
+    <div class="notice"><strong>Safe simulation:</strong> this public demo never contacts an IPTV provider, the private updater, or Cloudflare. All records shown below are fictional.</div>
+    <section class="grid">
+      <article class="card">
+        <h2>Update console</h2><p>Try the same user journey as the Android app.</p>
+        <div class="status"><strong id="message">Ready for a demonstration</strong><span id="badge" class="pill">READY</span></div>
+        <div class="bar"><span id="progress"></span></div>
+        <div class="stages" id="stages">
+          <div class="stage"><i class="dot"></i>Queue update request</div><div class="stage"><i class="dot"></i>Build channel guide</div><div class="stage"><i class="dot"></i>Refresh VOD catalogue</div><div class="stage"><i class="dot"></i>Publish compressed EPG</div>
+        </div>
+        <button id="run">Run demo update</button><button class="secondary" id="reset">Reset</button>
+      </article>
+      <aside class="card"><h2>Demo result</h2><p id="stamp">No simulated update yet.</p><div class="stats"><div class="stat"><b id="channels">—</b><small>channels</small></div><div class="stat"><b id="programmes">—</b><small>programmes</small></div><div class="stat"><b id="movies">—</b><small>movies</small></div><div class="stat"><b id="series">—</b><small>series</small></div></div><p><button class="secondary" id="records">View sample data</button></p></aside>
+    </section>
+    <section id="database" class="card architecture hidden"><h2>Synthetic demo dataset</h2><p>This is a small, fictional substitute for the private production data.</p><table><thead><tr><th>Type</th><th>Name</th><th>State</th></tr></thead><tbody><tr><td>Channel</td><td>Demo News HD</td><td>Guide mapped</td></tr><tr><td>Programme</td><td>Evening Showcase</td><td>Published</td></tr><tr><td>Movie</td><td>Sample Feature</td><td>Indexed</td></tr><tr><td>Series</td><td>Portfolio Stories</td><td>Indexed</td></tr></tbody></table></section>
+    <section class="card architecture"><h2>Production architecture</h2><p>The real system keeps credentials and provider data private.</p><div class="flow"><span class="node">GitHub Actions · 07:00 / 19:00</span><span class="arrow">→</span><span class="node">Python updater</span><span class="arrow">→</span><span class="node">Cloudflare KV + D1</span><span class="arrow">→</span><span class="node">TiviMate EPG URL</span></div></section>
+    <p class="foot">MyPTV portfolio demo · No credentials, provider content, or production database are included.</p>
+  </main>
+  <script>
+    const steps=[['Request accepted and queued',18],['Building the programme guide',45],['Refreshing the VOD catalogue',72],['Publishing compressed EPG',92],['Demo update completed',100]];
+    const run=document.querySelector('#run'), reset=document.querySelector('#reset'), bar=document.querySelector('#progress'), message=document.querySelector('#message'), badge=document.querySelector('#badge'), stages=[...document.querySelectorAll('.stage')];
+    const wait=ms=>new Promise(r=>setTimeout(r,ms));
+    run.onclick=async()=>{run.disabled=true;badge.textContent='RUNNING';badge.classList.add('run');for(let i=0;i<steps.length;i++){message.textContent=steps[i][0];bar.style.width=steps[i][1]+'%';if(i) stages[Math.min(i-1,3)].classList.add('done');await wait(650)}badge.textContent='COMPLETE';document.querySelector('#channels').textContent='1,058';document.querySelector('#programmes').textContent='52,262';document.querySelector('#movies').textContent='79,351';document.querySelector('#series').textContent='4,449';document.querySelector('#stamp').textContent='Simulation completed locally in this browser.';run.disabled=false};
+    reset.onclick=()=>{bar.style.width='0';message.textContent='Ready for a demonstration';badge.textContent='READY';badge.classList.remove('run');stages.forEach(x=>x.classList.remove('done'));['channels','programmes','movies','series'].forEach(x=>document.querySelector('#'+x).textContent='—');document.querySelector('#stamp').textContent='No simulated update yet.'};
+    document.querySelector('#records').onclick=()=>document.querySelector('#database').classList.toggle('hidden');
+  </script>
+</body>
+</html>
