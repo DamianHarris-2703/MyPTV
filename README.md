@@ -1,15 +1,28 @@
 # MyPTV
 
-Public downloads for MyPTV.
+MyPTV turns incomplete provider information into a clearer, searchable and regularly refreshed television guide.
 
-## Android demo
+## Public demonstrations
 
-The Android app is a lightweight controller for Samsung Galaxy Note8 (Android 9) and similar Android devices. It includes a **Try Safe Demo** mode that works without credentials and does not contact the private EPG service.
+- **Interactive demo hub:** https://damianharris-2703.github.io/MyPTV/
+- **Demo downloads:** see the latest release.
 
-The real cloud updater and its credentials remain private. A configured private copy can request an EPG update and show live progress.
+All public demonstrations use fictional sample records. Credentials, stream addresses, production databases and private guides are not included.
 
-Download the APK from **Releases**. Android may ask you to allow installation from your browser or file manager.
+## Build types
 
-## Privacy
+| Build | Purpose | Demo |
+|---|---|---|
+| Windows desktop | Visual guide, discovery, favourites and guide health | Browser simulation and Windows download |
+| Android controller | Requests an update and displays progress | Safe-demo APK |
+| Telegram assistant | Conversational guide browsing, search and reminders | Browser simulation |
+| Update service | Finds channels, combines schedules, validates and publishes | Pipeline explanation |
 
-No provider credentials, controller keys, generated EPG data, or cloud configuration are included in this public repository.
+## Detailed build notes
+
+- [Windows desktop build](WINDOWS-DESKTOP.md)
+- [Android controller build](ANDROID.md)
+- [Telegram assistant build](TELEGRAM.md)
+- [Channel discovery and update pipeline](UPDATE-PIPELINE.md)
+
+Release SHA-256 values are file-verification fingerprints, not passwords or activation codes.
