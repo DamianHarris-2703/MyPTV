@@ -20,15 +20,14 @@ For the full engineering journey, including problems and fixes across every majo
 - Separate private VOD indexing, series/episode browsing, watchlist, and discovery.
 - Cloud-based twice-daily guide generation with Android and Windows remote triggers.
 - Android status, progress, elapsed time, version display, guide totals, missing-information count, collapsible settings, and persistent per-stage results.
-- Separate BlueStacks design-preview build so visual changes can be approved before production replacement.
+- Approved liquid-glass Android interface, first validated as a separate BlueStacks preview before production integration.
 
 ## Current priorities
 
 ### 1. Android experience
 
-- Review and refine the liquid-glass prototype at phone and larger-screen sizes.
-- Preserve readability, accessibility, live progress, and persistent stage results.
-- Move the approved design into production only after functional verification.
+- Continue checking the liquid-glass interface at phone and larger-screen sizes.
+- Preserve readability, accessibility, live progress, and persistent stage results in future releases.
 
 ### 2. Missing guide coverage
 

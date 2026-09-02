@@ -254,7 +254,7 @@ Its iterations added:
 - version number;
 - detailed live and persistent update results.
 
-A separate liquid-glass prototype was then created for BlueStacks. It uses an atmospheric gradient, translucent cards, pill controls, a live-status card, progress, and accordion sections. It remains an isolated design preview until approved and deliberately does not replace the working production UI prematurely.
+A separate liquid-glass prototype was then created for BlueStacks. It uses an atmospheric gradient, translucent cards, pill controls, a live-status card, progress, and accordion sections. After approval and production compilation, it became Android v1.6.0 while retaining the working controller, saved connection, live polling, versioning, and persistent-result behaviour.
 
 ## 14. Public and private repository split
 
