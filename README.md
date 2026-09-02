@@ -2,6 +2,13 @@
 
 MyPTV turns incomplete provider information into a clearer, searchable and regularly refreshed television guide.
 
+## Project documentation
+
+- **[Complete project history](PROJECT-HISTORY.md):** every major iteration, problem, diagnosis, fix, cloud-migration lesson, and Android-controller improvement, written without private operational data.
+- **[Public roadmap](IPTV-EPG-Roadmap.md):** what works now, current priorities, later work, and the safety rules governing public/private separation.
+
+The repository intentionally does not contain the private production Android controller or production credentials. The downloadable Android build is a safe demonstration app; production releases remain in the private operations repository.
+
 ## Public demonstrations
 
 - **Interactive demo hub:** https://damianharris-2703.github.io/MyPTV/
