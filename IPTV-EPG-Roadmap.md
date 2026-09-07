@@ -1,6 +1,6 @@
 # MyPTV — Public Roadmap
 
-Last updated: 2 September 2026
+Last updated: 7 September 2026
 
 This is the sanitised public roadmap. The private operations repository contains deployment-specific information, private endpoints, credentials, generated data, and production release details that are intentionally excluded here.
 
@@ -21,6 +21,10 @@ For the full engineering journey, including problems and fixes across every majo
 - Cloud-based twice-daily guide generation with Android and Windows remote triggers.
 - Android status, progress, elapsed time, version display, guide totals, missing-information count, collapsible settings, and persistent per-stage results.
 - Approved liquid-glass Android interface, first validated as a separate BlueStacks preview before production integration.
+- MyPTV V3.0 Stable Windows interface, promoted after its complete navigation and guide workflows were validated as a preview.
+- Rolling three-day Premier League, Champions League, Formula 1 and UFC coverage with competition-level following controls.
+- Explicit dead, working-without-guide and awaiting-confirmation guide states.
+- Persistent reviewed feed corrections and exact station/callsign matching for safe guide enrichment.
 
 ## Current priorities
 
@@ -32,7 +36,8 @@ For the full engineering journey, including problems and fixes across every majo
 ### 2. Missing guide coverage
 
 - Re-audit channels without programme information after each source refresh.
-- Prioritise verified South African gaps, then English-language US, UK, and Canadian gaps.
+- Treat working UK and US feeds without programme information as the critical remaining enrichment queue.
+- Ignore channels absent from a provider catalogue; they are outside the product's purpose.
 - Evaluate rights-compliant free sources individually.
 - Keep only sources that measurably improve correct coverage.
 - Add explicit aliases only after channel identity and regional schedule are verified.

@@ -1,6 +1,6 @@
 # MyPTV — Complete Project History
 
-Last updated: 2 September 2026
+Last updated: 7 September 2026
 
 This is the long-form, public history of MyPTV: what was built, what went wrong, what was learned, and how each major problem was resolved. It deliberately excludes credentials, access keys, private guide addresses, provider account details, personal identifiers, signing material, and generated private viewing data.
 
@@ -283,3 +283,9 @@ After every meaningful private production change:
 4. Never copy secrets, private links, account details, generated data, or signing material.
 
 That rule keeps this history honest and detailed while preserving the separation that makes the production system safe.
+
+## 17. MyPTV V3 stable milestone
+
+The Windows visual redesign was kept separate until its navigation and established guide workflows had been transferred and tested. After approval, it became MyPTV V3.0 Stable and the primary Windows experience.
+
+The milestone also consolidated rolling three-day coverage for followed football, motorsport and combat-sport competitions; competition-level follow/unfollow controls; live clock behaviour; persistent feed corrections; exact local-station guide matching; and explicit dead, no-guide and unconfirmed states. UK and US working feeds without schedules remain an enrichment task, rather than unfinished application functionality.
