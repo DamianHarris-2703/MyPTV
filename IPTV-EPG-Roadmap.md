@@ -25,6 +25,8 @@ For the full engineering journey, including problems and fixes across every majo
 - Rolling three-day Premier League, Champions League, Formula 1 and UFC coverage with competition-level following controls.
 - Explicit dead, working-without-guide and awaiting-confirmation guide states.
 - Persistent reviewed feed corrections and exact station/callsign matching for safe guide enrichment.
+- Atomic publication that keeps the previous healthy cloud guide active if a build or upload fails.
+- Credential-safe personal backup/restore, self-diagnostics and followed/favourite schedule-change alerts.
 
 ## Current priorities
 

@@ -289,3 +289,5 @@ That rule keeps this history honest and detailed while preserving the separation
 The Windows visual redesign was kept separate until its navigation and established guide workflows had been transferred and tested. After approval, it became MyPTV V3.0 Stable and the primary Windows experience.
 
 The milestone also consolidated rolling three-day coverage for followed football, motorsport and combat-sport competitions; competition-level follow/unfollow controls; live clock behaviour; persistent feed corrections; exact local-station guide matching; and explicit dead, no-guide and unconfirmed states. UK and US working feeds without schedules remain an enrichment task, rather than unfinished application functionality.
+
+The first post-milestone reliability update added versioned, atomic cloud publication so a failed build cannot replace the last healthy guide. It also added safe personal backup/restore, schedule-change alerts for followed competitions and favourites, and a unified diagnostic covering local files and the hosted update path. Private credentials remain excluded from backups and public materials.

@@ -4,6 +4,8 @@ MyPTV turns incomplete provider information into a clearer, searchable and regul
 
 MyPTV V3.0 is the completed stable Windows experience. Its approved top-navigation design, rolling sports view, competition following, guide-state reporting, feed correction and cloud-update controls now sit on the same mature guide engine.
 
+The stable reliability toolkit now includes atomic last-healthy cloud recovery, credential-safe personal backup/restore, followed and favourite schedule-change alerts, and one-screen self-diagnostics.
+
 ## Project documentation
 
 - **[Complete project history](PROJECT-HISTORY.md):** every major iteration, problem, diagnosis, fix, cloud-migration lesson, and Android-controller improvement, written without private operational data.
