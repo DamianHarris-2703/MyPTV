@@ -25,7 +25,7 @@ All public demonstrations use fictional sample records. Credentials, stream addr
 | Build | Purpose | Demo |
 |---|---|---|
 | Windows desktop | Visual guide, discovery, favourites and guide health | Browser simulation and Windows download |
-| Android controller | Requests an update and displays progress | Safe-demo APK |
+| Android controller | Update status plus a private, local-only TiviMate floating remote | Safe-demo APK |
 | Telegram assistant | Conversational guide browsing, search and reminders | Browser simulation |
 | Update service | Finds channels, combines schedules, validates and publishes | Pipeline explanation |
 
