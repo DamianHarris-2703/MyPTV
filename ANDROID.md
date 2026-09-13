@@ -22,6 +22,8 @@ MyPTV Guide is a native Kotlin and Jetpack Compose companion for Android 9 and n
 
 The navy-and-mint interface has Home, Channels, Search, Following, Favourites and Tools. Home focuses on current movie listings and explicitly live major sporting competitions over the next three days. Following applies to whole competitions. Channels include current/next programmes, schedules, favourites, reminders and guide-status explanations.
 
+Compact category and channel cards reduce scrolling. Page controls remain above the bottom navigation. Wider tablet and unfolded-phone windows show two columns, adapting back to one in narrow windows or with larger text settings.
+
 The companion uses authenticated paginated JSON from the existing cloud guide. Telegram and Android share the same healthy published guide. Android keeps personal favourites, following and reminders locally and provides optional password-encrypted backup files. The controller key is entered by the user and encrypted using Android Keystore; it is excluded from backups and builds.
 
 The app retains healthy pages for offline viewing with visible timestamps. Android notifications cover saved reminders, followed/favourite schedule changes and manually requested cloud-update completion. Background notification timing follows Android permissions and battery restrictions.
