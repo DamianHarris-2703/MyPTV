@@ -16,6 +16,8 @@ Android 13 and newer may label a sideloaded copy's accessibility service **Contr
 
 The overlay remembers separate portrait and landscape positions, supports adjustable transparency and button size, can collapse from its drag handle, and has a persistent notification with a Stop action. An optional calibrated gesture fallback is available for custom-rendered screens, but it is less reliable and disabled by default. Screens that expose neither navigable accessibility nodes nor useful gesture behavior may remain incompatible.
 
+Only genuine TiviMate launcher packages are considered as overlay targets. One detected edition is selected automatically with no chooser shown; the edition chooser appears only when multiple valid TiviMate editions are installed. MyPTV's controller itself is excluded from the results.
+
 Controller processing and preferences remain on the device. The app does not collect screen contents, accessibility data, usage analytics, provider details, credentials, or private service endpoints.
 
 The Android apps remain independently installable and visually distinct: TiviMate Controls uses a D-pad/OK launcher icon, EPG Remote uses straight red/yellow/green guide lines, and MyPTV Guide uses a TV GUIDE badge. Their stable application identities let a correctly signed update install over the matching earlier release without replacing either of the other apps.
