@@ -12,9 +12,13 @@ The private production Android project also includes **MyPTV TiviMate Controls**
 
 The user must explicitly enable Android's “Display over other apps” permission and the app's accessibility service. Direction buttons move accessibility focus, OK clicks the focused item, and Back invokes Android's supported accessibility global Back action. The app does not claim to inject arbitrary hardware key events and requires no root access.
 
+Android 13 and newer may label a sideloaded copy's accessibility service **Controlled by restricted setting**. The user can open **Settings > Apps > MyPTV TiviMate Controls**, use the three-dot menu to choose **Allow restricted settings**, authenticate, and then return to **Settings > Accessibility > Installed apps**. This operating-system safeguard is not bypassed or silently changed by MyPTV.
+
 The overlay remembers separate portrait and landscape positions, supports adjustable transparency and button size, can collapse from its drag handle, and has a persistent notification with a Stop action. An optional calibrated gesture fallback is available for custom-rendered screens, but it is less reliable and disabled by default. Screens that expose neither navigable accessibility nodes nor useful gesture behavior may remain incompatible.
 
 Controller processing and preferences remain on the device. The app does not collect screen contents, accessibility data, usage analytics, provider details, credentials, or private service endpoints.
+
+The Android apps remain independently installable and visually distinct: TiviMate Controls uses a D-pad/OK launcher icon, EPG Remote uses straight red/yellow/green guide lines, and MyPTV Guide uses a TV GUIDE badge. Their stable application identities let a correctly signed update install over the matching earlier release without replacing either of the other apps.
 
 # MyPTV Guide for Android
 
