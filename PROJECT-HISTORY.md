@@ -291,3 +291,11 @@ The Windows visual redesign was kept separate until its navigation and establish
 The milestone also consolidated rolling three-day coverage for followed football, motorsport and combat-sport competitions; competition-level follow/unfollow controls; live clock behaviour; persistent feed corrections; exact local-station guide matching; and explicit dead, no-guide and unconfirmed states. UK and US working feeds without schedules remain an enrichment task, rather than unfinished application functionality.
 
 The first post-milestone reliability update added versioned, atomic cloud publication so a failed build cannot replace the last healthy guide. It also added safe personal backup/restore, schedule-change alerts for followed competitions and favourites, and a unified diagnostic covering local files and the hosted update path. Private credentials remain excluded from backups and public materials.
+
+## 18. Exact-feed visual audit programme
+
+A private, repeatable visual audit now checks each exact provider feed with multiple short decoding attempts, compares successful video with approved schedules, and requires three observations before a correction becomes active. DStV Kids and UK Kids are the first two completed groups in a private 60-group checklist.
+
+The first audits found that some feeds inside Kids categories actually carried regional variants or adult evening brands. Confirmed schedule corrections are retained in private cloud storage and restored during future guide builds. Repeatedly inaccessible feeds receive an explicit failed-stream state; an old schedule can no longer hide a trusted DEAD result in the mobile snapshot.
+
+Only the method and progress are documented publicly. Screenshots, exact feed identifiers, correction records, upstream addresses and credentials remain private.
