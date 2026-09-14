@@ -30,6 +30,12 @@ The navy-and-mint interface has Home, Channels, Search, Following, Favourites an
 
 Compact category and channel cards reduce scrolling. Page controls remain above the bottom navigation. Wider tablet and unfolded-phone windows show two columns, adapting back to one in narrow windows or with larger text settings.
 
+The latest Guide update combines provider-category and channel results into continuous lists: no Next/Previous buttons are needed for browsing them. Network requests remain small and paginated internally, with complete healthy lists cached for offline use. Search and schedule pages keep their page controls.
+
+TiviMate Controls now offers optional keyboard arrows. The user explicitly enables and selects MyPTV Remote Keys in Android, then reopens TiviMate. It sends software direction-key events only to the selected player, without reading text or connecting to the Internet. This differs from the default accessibility-focus mode and depends on the player accepting a software input connection; it is not guaranteed to duplicate every physical-keyboard behavior. Users can switch back to their usual keyboard at any time.
+
+MyPTV EPG Remote remains the separate cloud-update app, with its own launcher identity and release history. All three production Android apps are maintained together in the private repository; public updates contain sanitized product notes, not production APKs, keys, channel identifiers or provider configuration.
+
 The companion uses authenticated paginated JSON from the existing cloud guide. Telegram and Android share the same healthy published guide. Android keeps personal favourites, following and reminders locally and provides optional password-encrypted backup files. The controller key is entered by the user and encrypted using Android Keystore; it is excluded from backups and builds.
 
 The app retains healthy pages for offline viewing with visible timestamps. Android notifications cover saved reminders, followed/favourite schedule changes and manually requested cloud-update completion. Background notification timing follows Android permissions and battery restrictions.
