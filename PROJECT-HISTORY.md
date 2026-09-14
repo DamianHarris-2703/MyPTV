@@ -299,3 +299,5 @@ A private, repeatable visual audit now checks each exact provider feed with mult
 The first audits found that some feeds inside Kids categories actually carried regional variants or adult evening brands. Confirmed schedule corrections are retained in private cloud storage and restored during future guide builds. Repeatedly inaccessible feeds receive an explicit failed-stream state; an old schedule can no longer hide a trusted DEAD result in the mobile snapshot.
 
 Only the method and progress are documented publicly. Screenshots, exact feed identifiers, correction records, upstream addresses and credentials remain private.
+
+The next audit completed UK Music, UK News and UK Sports Extra, bringing the private checklist to five of 60 groups. The audit distinguishes working and failed streams from schedule confidence: a decodable feed can still be marked NO GUIDE when its content does not match an approved source, or UNCONFIRMED when its identity changes between checks. Confirmed schedule mappings remain private and require three observations.
