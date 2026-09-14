@@ -309,3 +309,9 @@ The native Android guide now gives on-demand titles their own VOD destination in
 The DStv Documentary group became the sixth completed visual-audit group. Repeated stream checks, visible network identification and approved schedule comparison were completed before publication. The private repository retains the feed-level evidence and guide associations; the public project records only the method and overall progress.
 
 The DStv General and Music groups brought the checklist to eight of 60. Every entry received three live checks, working feeds were compared with approved schedules, and consistently inaccessible feeds received explicit status records. One consistently mislabelled music feed was corrected only after three matching observations in private cloud storage; the public repository contains no feed identifiers, viewing addresses or correction payloads.
+
+## 20. DStv Movies and Entertainment audit
+
+The DStv Movies and Entertainment groups brought the private checklist to ten of 60. All 62 entries received three live-media checks. Working feeds were visually identified and compared with approved schedules, missing schedule associations were restored privately, and feeds that repeatedly failed were given explicit availability states.
+
+One correctly labelled service consistently displayed its expected off-air slate but had no approved schedule, so it is reported as NO GUIDE rather than receiving guessed listings. No feed-identity correction was needed. The public repository retains only this sanitised result; feed identifiers, upstream addresses, private configuration and audit evidence remain private.
