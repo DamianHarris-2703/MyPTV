@@ -301,3 +301,9 @@ The first audits found that some feeds inside Kids categories actually carried r
 Only the method and progress are documented publicly. Screenshots, exact feed identifiers, correction records, upstream addresses and credentials remain private.
 
 The next audit completed UK Music, UK News and UK Sports Extra, bringing the private checklist to five of 60 groups. The audit distinguishes working and failed streams from schedule confidence: a decodable feed can still be marked NO GUIDE when its content does not match an approved source, or UNCONFIRMED when its identity changes between checks. Confirmed schedule mappings remain private and require three observations.
+
+## 19. Native VOD search and documentary audit
+
+The native Android guide now gives on-demand titles their own VOD destination in the bottom navigation. Live Search is limited to channels and scheduled programmes, while VOD searches movies, series and documentaries through separate authenticated, paginated requests. Both views retain the same private-data allowlist and never return playback addresses or provider identifiers.
+
+The DStv Documentary group became the sixth completed visual-audit group. Repeated stream checks, visible network identification and approved schedule comparison were completed before publication. The private repository retains the feed-level evidence and guide associations; the public project records only the method and overall progress.
