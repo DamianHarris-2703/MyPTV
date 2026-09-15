@@ -315,3 +315,9 @@ The DStv General and Music groups brought the checklist to eight of 60. Every en
 The DStv Movies and Entertainment groups brought the private checklist to ten of 60. All 62 entries received three live-media checks. Working feeds were visually identified and compared with approved schedules, missing schedule associations were restored privately, and feeds that repeatedly failed were given explicit availability states.
 
 One correctly labelled service consistently displayed its expected off-air slate but had no approved schedule, so it is reported as NO GUIDE rather than receiving guessed listings. No feed-identity correction was needed. The public repository retains only this sanitised result; feed identifiers, upstream addresses, private configuration and audit evidence remain private.
+
+## 21. DStv Sports and News audit
+
+The DStv Sports and News groups brought the private checklist to twelve of 60. All 85 entries received three live-media checks, with sequential retries used to separate transient decoding errors from stable failures. Working services were visually identified and compared with approved schedules before four missing official associations were restored privately.
+
+Regional and online services without exact approved schedules remain explicitly NO GUIDE instead of borrowing listings from similar channels. One provider-labelled news entry consistently displayed a different network in all three observations; the correction was confirmed in private Cloudflare storage and the feed remains NO GUIDE because an exact schedule is unavailable. The public repository contains no feed identifiers, viewing addresses, screenshots or correction payloads.
