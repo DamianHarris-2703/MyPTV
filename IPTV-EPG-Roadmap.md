@@ -1,6 +1,6 @@
 # MyPTV — Public Roadmap
 
-Last updated: 15 September 2026
+Last updated: 16 September 2026
 
 This is the sanitised public roadmap. The private operations repository contains deployment-specific information, private endpoints, credentials, generated data, and production release details that are intentionally excluded here.
 
@@ -29,6 +29,7 @@ For the full engineering journey, including problems and fixes across every majo
 - Radio availability checks that safely read ICY and ID3 artist/title metadata when a station supplies it.
 - Reviewed UK Entertainment and Documentary feed associations, including safeguards against radio-name collisions and wrong regional schedules.
 - Reviewed UK Sports and Subtitles feeds, including exact numbered-channel corrections and protection against Premier League Darts being classified as English Premier League football.
+- Reviewed Canadian Kids and Music feeds with exact regional schedule matching and conservative NO GUIDE handling when no exact Canadian listing exists.
 - Atomic publication that keeps the previous healthy cloud guide active if a build or upload fails.
 - Credential-safe personal backup/restore, self-diagnostics and followed/favourite schedule-change alerts.
 

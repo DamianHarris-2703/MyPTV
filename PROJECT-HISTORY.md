@@ -353,3 +353,11 @@ The UK Sports and Subtitles groups received three local media checks across 96 f
 The sports review found several numbered services attached to schedules for different channel numbers, along with placeholder listings and unstable feeds that changed to unrelated programming. Seventeen exact mappings met the three-observation rule and were stored privately. Regional services without an approved exact source remain NO GUIDE, and incomplete or changing identities remain UNCONFIRMED instead of receiving a guessed schedule.
 
 The competition recogniser was tightened after a sports listing exposed “Premier League Darts” with an EPL tag. Darts can no longer enter the English Premier League section on Home. This audit stayed local and did not start a guide build or create an Actions artifact; private identifiers, stream addresses, raw images, controller details and correction records were not copied here.
+
+## 26. Canadian Kids and Music audit
+
+The Canadian Kids and Music groups received three local media checks across 17 feeds. Eleven decoded in at least one pass, while six remained unavailable through all three checks. Temporary failures did not turn otherwise working feeds into false DEAD results.
+
+Six channel identities met the three-observation rule. Four exact Canadian schedule associations are prepared privately for the next batched publication, while two confirmed channels remain NO GUIDE because the approved sources contain no exact schedule. Five intermittent or insufficiently identified feeds remain UNCONFIRMED rather than receiving guessed regional listings.
+
+One music-labelled entry consistently carried a different established Canadian network and was corrected only after three matching observations. This audit did not start a cloud guide build or create a GitHub Actions artifact. Provider identifiers, upstream addresses, screenshots, controller details, schedule mappings and correction records remain private.
