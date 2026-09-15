@@ -361,3 +361,11 @@ The Canadian Kids and Music groups received three local media checks across 17 f
 Six channel identities met the three-observation rule. Four exact Canadian schedule associations are prepared privately for the next batched publication, while two confirmed channels remain NO GUIDE because the approved sources contain no exact schedule. Five intermittent or insufficiently identified feeds remain UNCONFIRMED rather than receiving guessed regional listings.
 
 One music-labelled entry consistently carried a different established Canadian network and was corrected only after three matching observations. This audit did not start a cloud guide build or create a GitHub Actions artifact. Provider identifiers, upstream addresses, screenshots, controller details, schedule mappings and correction records remain private.
+
+## 27. Canadian Documentary and Entertainment audit
+
+The Canadian Documentary and Entertainment groups received three local media checks across 46 feeds. Thirty-one decoded in at least one pass, while 15 remained unavailable through all three checks. A single temporary timeout recovered in another pass and did not create a false DEAD result.
+
+Twenty identities met the three-observation rule. Eighteen exact schedule associations are prepared privately for the next batched publication, two confirmed services remain NO GUIDE, and seven feeds remain UNCONFIRMED because their visible identity did not reach the required threshold. Several provider labels were found carrying different established networks, including one former Canadian channel name that now carries its replacement service.
+
+The authenticated correction endpoint’s bounded request ceiling was increased to retain the growing reviewed history. Backend tests verify that the expected history is accepted while oversized requests remain rejected. Only the controller was deployed; no guide build or XMLTV publication was started. Private identifiers, mappings, observations, addresses, credentials and raw images remain outside this repository.
