@@ -329,3 +329,11 @@ The UK Locals and Movies groups brought the private checklist to fourteen of 60.
 The review also handled current channel renames and several repeatedly mislabelled services through the existing three-confirmation process. Exact schedule associations and three NO GUIDE decisions were stored privately so neither client presents a confident but incorrect schedule. The public repository records the audit outcome without provider identifiers, upstream addresses, screenshots, correction payloads, credentials or private configuration.
 
 The authenticated mobile API was also tightened so category and channel requests process only the requested page and group. This keeps the larger refreshed guide responsive without changing opaque identifiers or exposing private catalogue data.
+
+## 23. UK and African Radio audit
+
+The UK and African Radio groups received three local live-audio checks across 127 stations. One hundred and eighteen stations decoded successfully in at least one round; nine were unavailable in all three rounds and have explicit private availability states prepared for the next batched publication. Transient timeouts did not turn otherwise working stations into false failures.
+
+The audit also requested ICY metadata, inspected timed stream-title blocks and checked ID3 artist/title fields. The provider relay exposed no usable now-playing metadata during these checks, so the clients will not guess artist or song names. The audit tooling is ready to retain that information when a feed supplies it, while stations without embedded metadata require a separately reviewed source.
+
+This audit was deliberately local and did not start a cloud guide build or create a GitHub Actions artifact. Raw observations, provider identifiers, stream addresses and private state records remain outside the public repository.

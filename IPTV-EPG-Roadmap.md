@@ -1,6 +1,6 @@
 # MyPTV — Public Roadmap
 
-Last updated: 7 September 2026
+Last updated: 15 September 2026
 
 This is the sanitised public roadmap. The private operations repository contains deployment-specific information, private endpoints, credentials, generated data, and production release details that are intentionally excluded here.
 
@@ -25,6 +25,8 @@ For the full engineering journey, including problems and fixes across every majo
 - Rolling three-day Premier League, Champions League, Formula 1 and UFC coverage with competition-level following controls.
 - Explicit dead, working-without-guide and awaiting-confirmation guide states.
 - Persistent reviewed feed corrections and exact station/callsign matching for safe guide enrichment.
+- Three-pass local feed-group auditing with batched cloud publication to avoid unnecessary update runs and artifacts.
+- Radio availability checks that safely read ICY and ID3 artist/title metadata when a station supplies it.
 - Atomic publication that keeps the previous healthy cloud guide active if a build or upload fails.
 - Credential-safe personal backup/restore, self-diagnostics and followed/favourite schedule-change alerts.
 
