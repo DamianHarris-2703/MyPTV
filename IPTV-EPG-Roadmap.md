@@ -27,6 +27,7 @@ For the full engineering journey, including problems and fixes across every majo
 - Persistent reviewed feed corrections and exact station/callsign matching for safe guide enrichment.
 - Three-pass local feed-group auditing with batched cloud publication to avoid unnecessary update runs and artifacts.
 - Radio availability checks that safely read ICY and ID3 artist/title metadata when a station supplies it.
+- Reviewed UK Entertainment and Documentary feed associations, including safeguards against radio-name collisions and wrong regional schedules.
 - Atomic publication that keeps the previous healthy cloud guide active if a build or upload fails.
 - Credential-safe personal backup/restore, self-diagnostics and followed/favourite schedule-change alerts.
 

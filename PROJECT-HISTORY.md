@@ -337,3 +337,11 @@ The UK and African Radio groups received three local live-audio checks across 12
 The audit also requested ICY metadata, inspected timed stream-title blocks and checked ID3 artist/title fields. The provider relay exposed no usable now-playing metadata during these checks, so the clients will not guess artist or song names. The audit tooling is ready to retain that information when a feed supplies it, while stations without embedded metadata require a separately reviewed source.
 
 This audit was deliberately local and did not start a cloud guide build or create a GitHub Actions artifact. Raw observations, provider identifiers, stream addresses and private state records remain outside the public repository.
+
+## 24. UK Entertainment and Documentary audit
+
+The UK Entertainment and Documentary groups received three local live-media checks across 92 exact feeds. Seventy-six working services were visually reviewed, while sixteen feeds that remained unavailable or displayed a provider unavailable slate received explicit private failure states for the next batched publication. Temporary failures recovered in another pass and were not misclassified.
+
+The review found two provider labels carrying Travelxp, corrected a television-versus-radio name collision affecting U&GOLD schedules, and isolated several feeds carrying a different regional service. Exact approved UK schedule aliases were prepared where a matching source exists, and six corrections were confirmed through the private three-observation store. Feeds with an unknown, switching or unsupported regional identity remain NO GUIDE or UNCONFIRMED instead of borrowing a convenient schedule.
+
+This audit also remained local and did not trigger a guide build, deployment or Actions artifact. Correction evidence, provider identifiers, raw frames, private schedules and access details remain outside the public repository.
