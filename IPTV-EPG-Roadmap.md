@@ -31,6 +31,7 @@ For the full engineering journey, including problems and fixes across every majo
 - Reviewed UK Sports and Subtitles feeds, including exact numbered-channel corrections and protection against Premier League Darts being classified as English Premier League football.
 - Reviewed Canadian Kids and Music feeds with exact regional schedule matching and conservative NO GUIDE handling when no exact Canadian listing exists.
 - Reviewed Canadian Documentary and Entertainment feeds, including exact replacement-service matching and a bounded expansion of private correction-history storage.
+- Reviewed Canadian Movies and General feeds with exact service matching and conservative safeguards for regional and numbered channels.
 - Atomic publication that keeps the previous healthy cloud guide active if a build or upload fails.
 - Credential-safe personal backup/restore, self-diagnostics and followed/favourite schedule-change alerts.
 

@@ -369,3 +369,13 @@ The Canadian Documentary and Entertainment groups received three local media che
 Twenty identities met the three-observation rule. Eighteen exact schedule associations are prepared privately for the next batched publication, two confirmed services remain NO GUIDE, and seven feeds remain UNCONFIRMED because their visible identity did not reach the required threshold. Several provider labels were found carrying different established networks, including one former Canadian channel name that now carries its replacement service.
 
 The authenticated correction endpoint’s bounded request ceiling was increased to retain the growing reviewed history. Backend tests verify that the expected history is accepted while oversized requests remain rejected. Only the controller was deployed; no guide build or XMLTV publication was started. Private identifiers, mappings, observations, addresses, credentials and raw images remain outside this repository.
+
+## 28. Canadian Movies and General audit
+
+The Canadian Movies and General groups received three local media checks across 74 feeds. Sixty decoded in at least one pass, while 14 remained unavailable through all three checks. Intermittent failures recovered in another pass and were not marked dead.
+
+Eleven identities met the three-observation rule. Six exact Canadian schedule associations are prepared privately for the next batched publication, and five confirmed services remain NO GUIDE because no usable exact approved schedule exists. Forty working feeds remain UNCONFIRMED where the exact regional market, channel number or stable service identity could not be established safely.
+
+The audit found one movies entry consistently carrying another established Canadian service and corrected it through the existing private confirmation process. Regional network branding was not treated as proof of a city-specific schedule, and numbered premium feeds did not borrow listings from adjacent channels.
+
+This audit stayed local and did not start a guide build, Worker deployment or GitHub Actions guide artifact. Provider identifiers, stream addresses, raw frames, controller details, schedule mappings and correction records remain private.
