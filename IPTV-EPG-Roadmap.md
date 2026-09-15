@@ -28,6 +28,7 @@ For the full engineering journey, including problems and fixes across every majo
 - Three-pass local feed-group auditing with batched cloud publication to avoid unnecessary update runs and artifacts.
 - Radio availability checks that safely read ICY and ID3 artist/title metadata when a station supplies it.
 - Reviewed UK Entertainment and Documentary feed associations, including safeguards against radio-name collisions and wrong regional schedules.
+- Reviewed UK Sports and Subtitles feeds, including exact numbered-channel corrections and protection against Premier League Darts being classified as English Premier League football.
 - Atomic publication that keeps the previous healthy cloud guide active if a build or upload fails.
 - Credential-safe personal backup/restore, self-diagnostics and followed/favourite schedule-change alerts.
 

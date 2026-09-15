@@ -345,3 +345,11 @@ The UK Entertainment and Documentary groups received three local live-media chec
 The review found two provider labels carrying Travelxp, corrected a television-versus-radio name collision affecting U&GOLD schedules, and isolated several feeds carrying a different regional service. Exact approved UK schedule aliases were prepared where a matching source exists, and six corrections were confirmed through the private three-observation store. Feeds with an unknown, switching or unsupported regional identity remain NO GUIDE or UNCONFIRMED instead of borrowing a convenient schedule.
 
 This audit also remained local and did not trigger a guide build, deployment or Actions artifact. Correction evidence, provider identifiers, raw frames, private schedules and access details remain outside the public repository.
+
+## 25. UK Sports and Subtitles audit
+
+The UK Sports and Subtitles groups received three local media checks across 96 feeds. Sixty-three decoded in at least one pass, while 33 remained unavailable through all three checks. Seven of the eight subtitle feeds worked and visibly carried subtitles.
+
+The sports review found several numbered services attached to schedules for different channel numbers, along with placeholder listings and unstable feeds that changed to unrelated programming. Seventeen exact mappings met the three-observation rule and were stored privately. Regional services without an approved exact source remain NO GUIDE, and incomplete or changing identities remain UNCONFIRMED instead of receiving a guessed schedule.
+
+The competition recogniser was tightened after a sports listing exposed “Premier League Darts” with an EPL tag. Darts can no longer enter the English Premier League section on Home. This audit stayed local and did not start a guide build or create an Actions artifact; private identifiers, stream addresses, raw images, controller details and correction records were not copied here.
