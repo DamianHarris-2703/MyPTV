@@ -321,3 +321,9 @@ One correctly labelled service consistently displayed its expected off-air slate
 The DStv Sports and News groups brought the private checklist to twelve of 60. All 85 entries received three live-media checks, with sequential retries used to separate transient decoding errors from stable failures. Working services were visually identified and compared with approved schedules before four missing official associations were restored privately.
 
 Regional and online services without exact approved schedules remain explicitly NO GUIDE instead of borrowing listings from similar channels. One provider-labelled news entry consistently displayed a different network in all three observations; the correction was confirmed in private Cloudflare storage and the feed remains NO GUIDE because an exact schedule is unavailable. The public repository contains no feed identifiers, viewing addresses, screenshots or correction payloads.
+
+## 22. UK Locals and Movies audit
+
+The UK Locals and Movies groups brought the private checklist to fourteen of 60. All 92 entries received three live-media checks. Seventy-six working feeds were visually compared with their guide data, while sixteen feeds unavailable throughout all three attempts received explicit status records.
+
+The review also handled current channel renames and several repeatedly mislabelled services through the existing three-confirmation process. Exact schedule associations and one NO GUIDE decision were stored privately so neither client presents a confident but incorrect schedule. The public repository records the audit outcome without provider identifiers, upstream addresses, screenshots, correction payloads, credentials or private configuration.
