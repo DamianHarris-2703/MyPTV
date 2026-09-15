@@ -326,6 +326,6 @@ Regional and online services without exact approved schedules remain explicitly 
 
 The UK Locals and Movies groups brought the private checklist to fourteen of 60. All 92 entries received three live-media checks. Seventy-six working feeds were visually compared with their guide data, while sixteen feeds unavailable throughout all three attempts received explicit status records.
 
-The review also handled current channel renames and several repeatedly mislabelled services through the existing three-confirmation process. Exact schedule associations and one NO GUIDE decision were stored privately so neither client presents a confident but incorrect schedule. The public repository records the audit outcome without provider identifiers, upstream addresses, screenshots, correction payloads, credentials or private configuration.
+The review also handled current channel renames and several repeatedly mislabelled services through the existing three-confirmation process. Exact schedule associations and three NO GUIDE decisions were stored privately so neither client presents a confident but incorrect schedule. The public repository records the audit outcome without provider identifiers, upstream addresses, screenshots, correction payloads, credentials or private configuration.
 
 The authenticated mobile API was also tightened so category and channel requests process only the requested page and group. This keeps the larger refreshed guide responsive without changing opaque identifiers or exposing private catalogue data.
