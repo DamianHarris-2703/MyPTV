@@ -389,3 +389,13 @@ Ten identities met the three-observation rule. Four exact schedule associations 
 The review corrected several provider labels that consistently carried other established services. Regional news listings were attached only when the pictures established the market, and a Canadian sports service did not borrow a schedule from its numbered sibling. An intermittent sports feed that recovered once remains UNCONFIRMED instead of being falsely marked dead.
 
 This audit stayed local and did not start a guide build, Worker deployment or GitHub Actions guide artifact. Provider identifiers, stream addresses, raw frames, controller details, schedule mappings and correction records remain private.
+
+## 30. Canadian TV and Ultra audit
+
+The final two Canadian groups received three local media checks across 344 feeds. Two hundred and sixty-one decoded in at least one pass, while 83 remained unavailable through all three checks. Intermittent errors recovered in another pass and were not marked dead.
+
+Thirty-five exact identities met the three-observation rule. Fourteen replacement-service associations are prepared privately for the next batched publication, 21 confirmed services remain NO GUIDE because no exact approved schedule exists, and 39 working or intermittent feeds remain UNCONFIRMED where recovery or visible identity did not satisfy the required threshold.
+
+The broad catalogues repeat many channels from the smaller Canadian groups under different feed identifiers, so every duplicate was checked independently. Several recurring provider-label errors were confirmed again, including news, nature, children's and weather services carrying another established channel. The Ultra category also proved to be a provider catalogue label rather than a guarantee of 4K delivery; successful samples ranged from standard definition to 1080p.
+
+This completes all ten Canadian groups in the private checklist. The audit stayed local and did not start a guide build, Worker deployment or GitHub Actions guide artifact. Provider identifiers, stream addresses, raw frames, controller details, schedule mappings and correction records remain private.
