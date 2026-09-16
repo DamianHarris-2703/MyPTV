@@ -399,3 +399,11 @@ Thirty-five exact identities met the three-observation rule. Fourteen replacemen
 The broad catalogues repeat many channels from the smaller Canadian groups under different feed identifiers, so every duplicate was checked independently. Several recurring provider-label errors were confirmed again, including news, nature, children's and weather services carrying another established channel. The Ultra category also proved to be a provider catalogue label rather than a guarantee of 4K delivery; successful samples ranged from standard definition to 1080p.
 
 This completes all ten Canadian groups in the private checklist. The audit stayed local and did not start a guide build, Worker deployment or GitHub Actions guide artifact. Provider identifiers, stream addresses, raw frames, controller details, schedule mappings and correction records remain private.
+
+## 31. United States Sports, TV, News and Locals audit
+
+The four remaining United States catalogue groups received three local live-media checks across 521 feeds. Four hundred and forty-nine decoded in at least one pass, while 72 remained unavailable through all three checks. Intermittent failures recovered in another pass and were not marked dead.
+
+Five exact identities met the three-observation rule and now use matching approved national schedules in the private production system. A retired feed that displayed an explicit unavailable slate is suppressed, while regional, changing and insufficiently identified services remain UNCONFIRMED. Local station matches still require the exact market or callsign; national network presentation alone is not treated as proof of a city-specific affiliate.
+
+The review also protected premium multiplexes from false corrections. Matching films, advertisements or paid-programming windows were not enough to relabel a feed when another observation showed the services separating again. The audit stayed local and did not start a guide build, Worker deployment or GitHub Actions guide artifact. Provider identifiers, stream addresses, raw frames, controller details, schedule mappings and correction records remain private.

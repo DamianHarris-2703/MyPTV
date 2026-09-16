@@ -34,6 +34,7 @@ For the full engineering journey, including problems and fixes across every majo
 - Reviewed Canadian Movies and General feeds with exact service matching and conservative safeguards for regional and numbered channels.
 - Reviewed Canadian News and Sports feeds with exact service matching, regional safeguards and explicit duplicate-feed availability states.
 - Reviewed the broad Canadian TV and Ultra catalogues independently, completing all ten Canadian groups without assuming that duplicate labels share the same feed or delivery quality.
+- Reviewed United States Sports, TV, News and Locals across three independent passes, with exact national schedule corrections, strict local-market safeguards and conservative handling of premium multiplexes.
 - Atomic publication that keeps the previous healthy cloud guide active if a build or upload fails.
 - Credential-safe personal backup/restore, self-diagnostics and followed/favourite schedule-change alerts.
 
