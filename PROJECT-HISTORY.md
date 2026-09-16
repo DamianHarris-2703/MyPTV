@@ -379,3 +379,13 @@ Eleven identities met the three-observation rule. Six exact Canadian schedule as
 The audit found one movies entry consistently carrying another established Canadian service and corrected it through the existing private confirmation process. Regional network branding was not treated as proof of a city-specific schedule, and numbered premium feeds did not borrow listings from adjacent channels.
 
 This audit stayed local and did not start a guide build, Worker deployment or GitHub Actions guide artifact. Provider identifiers, stream addresses, raw frames, controller details, schedule mappings and correction records remain private.
+
+## 29. Canadian News and Sports audit
+
+The Canadian News and Sports groups received three valid local media checks across 64 feeds. Forty-one decoded in at least one pass, while 23 remained unavailable through all three checks. A local decoder-access problem invalidated an earlier attempt; that attempt was discarded and repeated rather than being counted as channel evidence.
+
+Ten identities met the three-observation rule. Four exact schedule associations are prepared privately for the next batched publication, and six confirmed services remain NO GUIDE because the approved index lacks a usable unambiguous match. Eleven working or intermittent feeds remain UNCONFIRMED where the exact network, regional variant or stable recovery did not meet the required threshold.
+
+The review corrected several provider labels that consistently carried other established services. Regional news listings were attached only when the pictures established the market, and a Canadian sports service did not borrow a schedule from its numbered sibling. An intermittent sports feed that recovered once remains UNCONFIRMED instead of being falsely marked dead.
+
+This audit stayed local and did not start a guide build, Worker deployment or GitHub Actions guide artifact. Provider identifiers, stream addresses, raw frames, controller details, schedule mappings and correction records remain private.
