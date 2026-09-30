@@ -409,3 +409,11 @@ Five exact identities met the three-observation rule and now use matching approv
 The review also protected premium multiplexes from false corrections. Matching films, advertisements or paid-programming windows were not enough to relabel a feed when another observation showed the services separating again. The audit stayed local and did not start a guide build, Worker deployment or GitHub Actions guide artifact. Provider identifiers, stream addresses, raw frames, controller details, schedule mappings and correction records remain private.
 
 After the audits were complete, one full production build published the accumulated UK, African Radio, Canadian and United States changes together. All required guide sources, live-state generation, VOD metadata, guide validation and remote publication completed successfully; the previous healthy guide remained available until its validated replacement was ready.
+
+## 32. Workspace consolidation and repeatable full checks
+
+The project was consolidated around one private development and runtime source plus this separate sanitized publication repository. Unique files from retired prototypes were preserved in a private local archive, active scheduled tasks were moved to the permanent source, and duplicate working folders were removed after content verification.
+
+A standard read-only FullCheck now verifies repository integrity, privacy boundaries, Python and Worker tests, local and cloud health, project memory, Android unit tests, lint and builds, GitHub synchronization, and attached-device availability. It never starts a guide refresh, publication or Worker deployment. The local TiviMate server also reuses the last structurally healthy guide when it starts, avoiding an unnecessary rebuild while retaining recovery when no valid export exists.
+
+The consolidation audit confirmed stable application IDs, Android 9 compatibility for the guide and controls apps, and matching release signatures across consecutive versions of all three Android applications. Private filesystem locations, controller material, provider data, exact feed identifiers, stream addresses and signing details remain outside this repository.
