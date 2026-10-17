@@ -20,7 +20,15 @@ Only genuine TiviMate launcher packages are considered as overlay targets. One d
 
 Controller processing and preferences remain on the device. The app does not collect screen contents, accessibility data, usage analytics, provider details, credentials, or private service endpoints.
 
-The Android apps remain independently installable and visually distinct: TiviMate Controls uses a D-pad/OK launcher icon, EPG Remote uses straight red/yellow/green guide lines, and MyPTV Guide uses a TV GUIDE badge. Their stable application identities let a correctly signed update install over the matching earlier release without replacing either of the other apps.
+The Android apps remain independently installable and visually distinct: TiviMate Controls uses a D-pad/OK launcher icon, MyPTV Update Centre uses straight red/yellow/green guide lines, and MyPTV Guide uses a TV GUIDE badge. Their stable application identities let a correctly signed update install over the matching earlier release without replacing either of the other apps.
+
+## MyPTV Update Centre
+
+MyPTV Update Centre v1.8 replaces the former EPG Remote name and interface while retaining its stable package and signing identity. The responsive Kotlin and Jetpack Compose app supports phones, tablets, landscape and foldable windows. It presents current update status, guide-health totals, recent validation stages and a bounded local history of completed updates.
+
+The controller key is encrypted using Android Keystore, and older installations migrate their saved key out of the previous ordinary preference. The cloud service address is kept under Advanced settings to prevent accidental edits. WorkManager can monitor an update under Android's background-execution rules and, with user-granted permission, report completion through a local notification.
+
+The app does not contain provider credentials, stream addresses, guide contents or analytics. Backup and device transfer are disabled, and production keys, service configuration and release APKs remain private.
 
 # MyPTV Guide for Android
 
@@ -34,7 +42,7 @@ The latest Guide update combines provider-category and channel results into cont
 
 TiviMate Controls now offers optional keyboard arrows. The user explicitly enables and selects MyPTV Remote Keys in Android, then reopens TiviMate. It sends software direction-key events only to the selected player, without reading text or connecting to the Internet. This differs from the default accessibility-focus mode and depends on the player accepting a software input connection; it is not guaranteed to duplicate every physical-keyboard behavior. Users can switch back to their usual keyboard at any time.
 
-MyPTV EPG Remote remains the separate cloud-update app, with its own launcher identity and release history. All three production Android apps are maintained together in the private repository; public updates contain sanitized product notes, not production APKs, keys, channel identifiers or provider configuration.
+MyPTV Update Centre remains the separate cloud-update app, with its own launcher identity and release history. All three production Android apps are maintained together in the private repository; public updates contain sanitized product notes, not production APKs, keys, channel identifiers or provider configuration.
 
 The companion uses authenticated paginated JSON from the existing cloud guide. Telegram and Android share the same healthy published guide. Android keeps personal favourites, following and reminders locally and provides optional password-encrypted backup files. The controller key is entered by the user and encrypted using Android Keystore; it is excluded from backups and builds.
 
