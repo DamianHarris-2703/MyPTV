@@ -306,6 +306,8 @@ The next audit completed UK Music, UK News and UK Sports Extra, bringing the pri
 
 The native Android guide now gives on-demand titles their own VOD destination in the bottom navigation. Live Search is limited to channels and scheduled programmes, while VOD searches movies, series and documentaries through separate authenticated, paginated requests. Both views retain the same private-data allowlist and never return playback addresses or provider identifiers.
 
+The subsequent Guide v1.1 interface refresh replaced the overcrowded seven-item navigation with six primary destinations and a combined Live TV/On demand search screen. It added adaptive side navigation for tablets and foldables, Continue browsing, recent-channel shortcuts, a visible refresh action, and compact/comfortable display density. These additions remain local-first and do not change the private-data boundary or external-playback design.
+
 The DStv Documentary group became the sixth completed visual-audit group. Repeated stream checks, visible network identification and approved schedule comparison were completed before publication. The private repository retains the feed-level evidence and guide associations; the public project records only the method and overall progress.
 
 The DStv General and Music groups brought the checklist to eight of 60. Every entry received three live checks, working feeds were compared with approved schedules, and consistently inaccessible feeds received explicit status records. One consistently mislabelled music feed was corrected only after three matching observations in private cloud storage; the public repository contains no feed identifiers, viewing addresses or correction payloads.

@@ -34,6 +34,8 @@ The app does not contain provider credentials, stream addresses, guide contents 
 
 MyPTV Guide is a native Kotlin and Jetpack Compose companion for Android 9 and newer, including Android 15. It is a separate app that can coexist with the existing MyPTV controller and floating-controls apps. Playback remains in the viewer's chosen player.
 
+Guide v1.1 modernises the interface for current phones, tablets and foldables. Phones retain a concise bottom bar, while wider layouts use a side navigation rail. Live TV and on-demand discovery now share one Search destination with an explicit mode selector; Home adds Continue browsing and recently viewed channels; and users can choose compact or comfortable display density. Refresh and cached-guide state remain visible, and all browsing history and preferences stay locally on the device.
+
 The navy-and-mint interface has Home, Channels, Search, Following, Favourites and Tools. Home focuses on current movie listings and explicitly live major sporting competitions over the next three days. Following applies to whole competitions. Channels include current/next programmes, schedules, favourites, reminders and guide-status explanations.
 
 Compact category and channel cards reduce scrolling. Page controls remain above the bottom navigation. Wider tablet and unfolded-phone windows show two columns, adapting back to one in narrow windows or with larger text settings.
